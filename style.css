@@ -1,0 +1,68 @@
+:root{
+    --azul-marinho: #2E86AB;
+    --azul-claro: #a7c5eb;
+    --laranja: #F39237;
+}
+
+body, 
+.carousel-caption{
+    font-family: "Mulish", sans-serif;
+}
+
+.navbar,
+footer {
+    background-color: var(--azul-marinho);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: var(--azul-marinho);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.section-title,
+footer {
+    font-family: "Quicksand", sans-serif;
+}
+
+.section-title span {
+    color: var(--azul-marinho);
+}
+
+#sobre-eagles,
+#tipos-viagens {
+    background-color: var(--azul-claro);
+}
+
+.texto-azul {
+    color: var(--azul-marinho);
+}
+
+.carousel img {
+    max-height: 500px; /* Altura máxima desejada */
+    width: 100%; /* A imagem ocupará toda a largura do carousel */
+    object-fit: cover; /* A imagem será cortada para preencher o espaço, se necessário */
+}
+
+#fale-conosco button {
+    background-color: var(--azul-marinho);
+    color: #fff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+footer span {
+    color: #fff;
+}
